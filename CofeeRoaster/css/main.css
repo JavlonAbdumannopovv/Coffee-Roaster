@@ -1,0 +1,26 @@
+/* GLOBAL CSS */
+@import "./Global/A_primary.css";
+@import "./Global/B_grid.css";
+@import "./Global/C_font.css";
+@import "./Global/D_color.css";
+
+/* SECTION_BLOCK CSS */
+@import "header_section.css";
+@import "hero_section.css";
+@import "steps_section.css";
+@import "footer_section.css";
+
+/* STYLE CSS */
+@import "./home.css";
+@import "./about.css";
+@import "./plan.css";
+
+
+
+
+
+
+
+
+
+

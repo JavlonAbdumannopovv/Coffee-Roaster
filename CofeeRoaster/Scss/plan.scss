@@ -1,0 +1,227 @@
+#plan {
+  .none {
+    display: block !important;
+  }
+  .container {
+    padding: 0 85px;
+    align-items: flex-start !important;
+
+    .plan_sidebar {
+      width: 255px;
+      height: 356px;
+
+      h4 {
+        color: #adb0b2;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        padding: 24px 0;
+        border-bottom: 1px solid #adb0b2;
+
+        span {
+          color: #adb0b2;
+          margin: 0 28px 0;
+          transition: all 0.3s ease;
+        }
+
+        &:hover {
+          color: #848990;
+
+          span {
+            color: #848484;
+          }
+        }
+
+        &.non-active {
+          color: #333d4b;
+
+          span {
+          color: #333d4b;
+          }
+        }
+      }
+    }
+
+    .plan_primary {
+      width: 730px;
+
+      .plan_primary_row {
+        width: 100%;
+        margin: 0 0 88px;
+
+        .plan_primary_head {
+          width: 100%;
+          height: 48px;
+          align-items: center !important;
+          cursor: pointer;
+          margin: 0 0 56px;
+
+          h2 {
+            color: #848990;
+          }
+
+          img {
+            width: 18px;
+            height: 12px;
+            margin: 0 0 25px;
+            transform: rotateX(0deg);
+          }
+
+          .rotate {
+            transform: rotateX(-180deg);
+          }
+        }
+
+        .plan_primary_body {
+          display:none;
+          .primary_column_box {
+            width: 228px;
+            height: 250px;
+            padding: 32px 28px;
+            background: #f4f1eb;
+            border-radius: 8px;
+            transition: all 0.4s ease;
+            cursor: pointer;
+
+            p {
+              width: 172px;
+            }
+
+            &:hover {
+              background: #fdd6ba;
+            }
+
+            &.active {
+              background: #0e8784;
+
+              *{
+                color:#fff;
+              }
+            }
+
+            h1{
+              display:none !important;
+            }
+          }
+        }
+      }
+
+      .plan_primary_order{
+        width:730px;
+        height:208px;
+        padding:27px 64px;
+        background:#293039;
+        border-radius:8px;
+
+        p{
+          margin:0 0 8px;
+          color:#848990;
+        }
+
+        h4{
+          color:#fff;
+          width:602px;
+        }
+      }
+
+      .plan_primary_button{
+        width:730px;
+        text-align:end;
+        margin:40px 0 0 0;
+      }
+    }
+  }
+}
+
+//Tablet Version
+@media(max-width:1299px){
+  #plan{
+    .container{
+      padding:0;
+      .plan_sidebar{
+        display:none !important;
+      }
+
+      .plan_primary{
+        width:689px;
+      }
+
+      .plan_primary_head{
+        width:689px;
+        h2{
+          font-size:32px;
+        }
+      }
+
+      .primary_column_box{
+        width:220px !important;
+      }
+
+      .plan_primary_order{
+        width:689px !important;
+      }
+  
+      .plan_primary_button{
+        width:689px !important;
+        text-align:center !important;
+      }
+    }
+  }
+}
+
+// Mobile Version
+@media(max-width:767px){
+  #plan{
+    .container{
+
+      .plan_primary{
+        width:328px;
+
+        .plan_primary_row{
+          .plan_primary_head{
+            width:328px;
+            h2{
+              width:240px;
+              height:56px;
+              font-size:24px !important;
+            }
+          }
+    
+          .primary_column_box{
+            width:100% !important;
+            height:140px !important;
+            margin:0 0 16px ;
+
+            h4{
+              margin:0 !important;
+            }
+
+            p{
+              width:278px !important;
+              margin:8px 0 0 0;
+            }
+          }
+        }
+
+        .plan_primary_order{
+          width:328px !important;
+          height:338px !important;
+          padding:32px 24px !important;
+          margin:120px 0 0 0;
+  
+          h4{
+            width:279px !important;
+          }
+          
+        }
+    
+        .plan_primary_button{
+          width:328px !important;
+          text-align:center !important;
+        }
+      }
+
+
+    }
+  }
+}
+

@@ -1,0 +1,109 @@
+#steps .steps {
+  width: 1045px;
+  margin: auto;
+}
+#steps .steps .steps_head .steps_head_line {
+  width: 730px;
+  margin: 104px 0 80px;
+  display: flex;
+  align-items: center;
+}
+#steps .steps .steps_head .steps_head_line .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #0e8784;
+}
+#steps .steps .steps_head .steps_head_line .line {
+  width: 350px;
+  height: 3px;
+  background: #FDD6BA;
+}
+#steps .steps .steps_body {
+  margin: 0 0 64px 0;
+}
+#steps .steps .steps_body .steps_column_box {
+  width: 285px;
+}
+#steps .steps .steps_body .steps_column_box .steps_box_number {
+  color: #FDD6BA;
+}
+#steps .steps .steps_body .steps_column_box .steps_box_title {
+  width: 200px !important;
+  margin: 38px 0 41px;
+}
+
+#steps.dark .container {
+  height: 653px;
+  background: #293039;
+  border-radius: 10px;
+}
+#steps.dark .steps_head {
+  padding: 10px 0 0 0;
+}
+#steps.dark * {
+  color: #fff;
+}
+#steps.dark h1 {
+  color: #FDD6BA;
+}
+
+@media (max-width: 1299px) {
+  #steps .container {
+    width: 689px;
+    margin: auto;
+  }
+  #steps .container .steps {
+    width: 100%;
+  }
+  #steps .container .steps .steps_head .steps_head_line {
+    width: 497px;
+  }
+  #steps .container .steps .steps_head .steps_head_line .line {
+    width: 211px;
+  }
+  #steps .container .steps .steps_body .steps_column_box {
+    width: 220px;
+  }
+  #steps .container .steps .steps_body .steps_column_box .steps_box_title {
+    width: 220px;
+  }
+}
+@media (max-width: 767px) {
+  #steps {
+    text-align: center;
+  }
+  #steps .container {
+    width: 327px;
+    margin: auto;
+  }
+  #steps .container .steps {
+    width: 100%;
+  }
+  #steps .container .steps .steps_head {
+    width: 99%;
+    margin: auto;
+  }
+  #steps .container .steps .steps_head .steps_head_line {
+    display: none;
+  }
+  #steps .container .steps .steps_body .steps_column_box {
+    width: 327px;
+    margin: 0 0 56px;
+  }
+  #steps .container .steps .steps_body .steps_column_box .steps_box_title {
+    margin: 24px auto;
+  }
+  #steps .container .steps .steps_footer {
+    width: 99%;
+    margin: auto;
+  }
+  #steps.dark {
+    height: 1100px;
+  }
+  #steps.dark .container {
+    height: 1100px;
+    padding: 0;
+    text-align: center;
+  }
+}/*# sourceMappingURL=steps_section.css.map */

@@ -1,0 +1,261 @@
+#collection{
+  text-align:center;
+
+  .collection_head{
+    margin-bottom:32px;
+  }
+
+  .collection_body{
+    width:1111px;
+    margin:auto;
+
+    .collection_box{
+      width:255px;
+      height:398px;
+
+      img{
+        width:255px;
+        height:193px;
+      }
+    }
+  }
+}
+
+#choose{
+  text-align:center;
+  .container{
+    height:735px;
+  }
+
+  *{
+    color:#fff;
+  }
+
+  .choose_head{
+    width:100%;
+    height:577px;
+    background:#282f38;
+    padding:100px 0 0 0;
+
+    .choose_head_description{
+      width:540px;
+      margin:auto;
+    }
+  }
+
+  .choose_body{
+    position:relative;
+    bottom:220px;
+    left:0;
+    .grid{
+      width:1110px;
+      margin:auto;
+
+      .choose_column_box{
+        width:350px;
+        height:382px;
+        background:#0e8784;
+        border-radius:5px;
+
+        .choose_box_img{
+          img{
+            margin:72px 0 16px 0;
+          }
+        }
+
+
+        .choose_box_info{
+          width:270px;
+          margin:auto;
+        }
+      }
+    }
+  }
+}
+
+// Tablet Version
+@media(max-width:1299px){
+
+  #collection{
+    text-align:start !important;
+  
+    .collection_head{
+      margin-bottom:32px;
+    }
+  
+    .collection_body{
+      width:100%;
+      margin:auto;
+  
+      .collection_box{
+        width:552px;
+        margin:0 auto 47px;
+        height:193px;
+  
+        .collection_box_img{
+          img{
+            width:255px;
+            height:193px;
+          }
+        }
+
+        .collection_box_info{
+          
+          .collection_box__title{
+            margin:0 0 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .start,
+.end{
+  justify-content:center !important;
+}
+
+#choose{
+  .container{
+    height:880px;
+  }
+  .choose_head{
+    height:573px;
+    padding:50px 0 0 0;
+  }
+  .choose_body{
+    bottom:300px;
+    .grid{
+    width:573px;
+
+      .choose_column_box{
+        width:100%;
+        height:180px;
+        margin:0 0 24px;
+        padding:0;
+        align-items:center;
+
+        .choose_box_img{
+          width:121px;
+          height:98px;
+          display:inline-block;
+          margin:0;
+
+          img{
+            margin:0;
+          }
+        }
+        .choose_box_info{
+          width:400px;
+          height:98px;
+          padding:0;
+          margin:0; 
+          display:inline-block;
+          text-align:start;
+          margin:41px 0 0 0 ;
+
+
+          h4{
+            margin:0 0 16px;
+          }
+        }
+      }
+    }
+  }
+}
+}
+
+
+
+// Mobile Version
+@media(max-width:767px){
+  .start{
+    justify-content:flex-end !important;
+  }
+  #collection {
+  
+    .collection_body{
+      width:100%;
+  
+      .collection_box{
+        width:282px !important;
+        height:340px;
+        text-align:center;
+        align-items:center !important;
+        
+        .collection_box_img{
+          width:100% !important;
+          margin-bottom:24px;
+          img{
+            width:282px;
+            height:200px;
+          }
+        }
+
+        .collection_box_info{
+          width:282px !important;
+          height:98px !important;
+        margin-bottom:48px;
+
+        }
+      }
+    }
+  }
+
+  #choose{
+    text-align:center;
+    
+    .container{
+      height:1500px;
+    }
+    
+    .choose_head{
+      width:100%;
+      height:902px;
+      margin:auto;
+
+      h2{
+        width:100%;
+        font-size:28px;
+        line-height:28px;
+      }
+
+      .choose_head_description{
+        width:280px;
+        height:125px;
+        margin:auto;
+      }
+    }
+
+    .choose_body{
+      bottom:600px;
+      .grid{
+        width:280px;
+
+        .choose_column_box{
+          width:280px;
+          height:382px;
+  
+          .choose_box_img{
+            display:block;
+            margin:72px auto 26px;
+          }
+  
+          .choose_box_info{
+            width:100%;
+            height:131px;
+            text-align:center !important;  
+            display:block;
+            margin:0 auto;
+  
+            p{
+              width:212px;
+              margin:auto;
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+}

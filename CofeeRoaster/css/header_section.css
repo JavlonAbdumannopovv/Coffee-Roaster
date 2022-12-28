@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  padding: 49px 0;
+}
+header .header_logo img {
+  cursor: pointer;
+}
+header .header_navbar nav {
+  width: 283px;
+}
+header .header_bars {
+  display: none !important;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  header .header_logo img {
+    width: 162px;
+    height: 17px;
+  }
+  header .header_navbar nav {
+    display: none;
+  }
+  header .header_bars {
+    display: flex !important;
+    height: 15px;
+  }
+  header .header_bars bbbbb img {
+    width: 16px;
+    height: 15px;
+  }
+}
+@media (max-width: 1299px) {
+  .header_bars {
+    display: none !important;
+  }
+}/*# sourceMappingURL=header_section.css.map */

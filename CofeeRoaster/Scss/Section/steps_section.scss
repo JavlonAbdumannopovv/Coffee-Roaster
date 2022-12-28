@@ -1,0 +1,143 @@
+#steps{
+  .steps{
+    width:1045px;
+    margin:auto;
+
+    .steps_head{
+      .steps_head_line{
+        width:730px;
+        margin:104px 0 80px;
+        display:flex;
+        align-items:center;
+
+        .circle{
+          width:25px;
+          height:25px;
+          border-radius:50%;
+          border:1px solid #0e8784;
+        }
+
+        .line{
+          width:350px;
+          height:3px;
+          background:#FDD6BA;
+        }
+      }
+    }
+
+    .steps_body{
+      margin:0 0 64px 0;
+      .steps_column_box{
+        width:285px;
+        .steps_box_number{
+          color:#FDD6BA;
+        }
+        .steps_box_title{
+          width:200px !important;
+          margin:38px 0 41px;
+        }
+      }
+    }
+  }
+}
+
+// Section Dark
+#steps.dark{
+  .container{
+  height:653px;
+  background:#293039;
+  border-radius:10px;
+  }
+  
+  .steps_head{
+    padding:10px 0 0 0;
+  }
+  *{
+    color:#fff;
+  }
+
+  h1{
+    color:#FDD6BA;
+  }
+}
+
+// Tablet Version 
+@media(max-width:1299px){
+  #steps{
+    .container {
+      width:689px;
+      margin:auto;
+      .steps{
+        width:100%;
+        .steps_head{
+          .steps_head_line{
+            width:497px;
+            .line{
+              width:211px;
+            }
+          }
+        }
+        .steps_body{
+          .steps_column_box{
+            width:220px;
+  
+            .steps_box_title{
+              width:220px;
+  
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Mobile Version
+@media(max-width:767px){
+  #steps{
+    text-align:center;
+    .container{
+      width:327px;
+      margin:auto;
+
+      .steps{
+        width:100%;
+
+        .steps_head{
+          width:99%;
+          margin:auto;
+
+          .steps_head_line{
+            display:none;
+          }
+        }
+        .steps_body{
+          .steps_column_box{
+            width:327px;
+            margin:0 0 56px;
+
+            .steps_box_title{
+              margin:24px auto;
+            }
+          }
+        }
+
+        .steps_footer{
+          width:99%;
+          margin:auto;
+        }
+      }
+    }
+  }
+
+  #steps.dark{
+    height:1100px;
+
+    .container{
+    height:1100px;
+    padding:0;
+    text-align:center;
+    }
+  }
+}
+

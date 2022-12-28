@@ -1,0 +1,195 @@
+#commitment .container {
+  padding: 0 85px;
+}
+#commitment .container .column_box_img {
+  width: 445px;
+  height: 520px;
+}
+#commitment .container .column_box_img img {
+  border-radius: 10px;
+}
+#commitment .container .column_box_info {
+  width: 540px;
+  height: 340px;
+}
+
+#quality {
+  margin: 256px 0 150px 0;
+}
+#quality * {
+  color: #fff;
+}
+#quality .container {
+  height: 474px;
+  background: #282f38;
+  padding: 0px 85px;
+  border-radius: 10px;
+}
+#quality .container .grid {
+  position: relative;
+  bottom: 100px;
+  left: 0;
+}
+#quality .container .grid .column_box_info {
+  width: 540px;
+  height: 210px;
+  padding: 50px 0 0;
+}
+#quality .container .grid .column_box_img {
+  width: 445px;
+  height: 474px;
+  background-image: url("../Pictures/quality.png");
+  border-radius: 10px;
+}
+
+#country .container {
+  padding: 0 0 0 85px;
+}
+#country .container .country_head {
+  margin: 0 0 72px;
+}
+#country .container .country_head h4 {
+  color: #83888F;
+}
+#country .container .country_body {
+  width: 1045px;
+}
+#country .container .country_body .column_box {
+  width: 285px;
+  height: 262px;
+}
+#country .container .country_body .column_box h3 {
+  margin: 45px 0 24px !important;
+}
+
+@media (max-width: 1299px) {
+  #commitment .container {
+    padding: 0 !important;
+  }
+  #commitment .container .column_box_img {
+    width: 281px;
+    height: 470px;
+  }
+  #commitment .container .column_box_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    right: 30px;
+    bottom: 0;
+  }
+  #commitment .container .column_box_info {
+    width: 339px;
+    height: 453px;
+  }
+  #commitment .container .column_box_info h2 {
+    font-size: 32px;
+  }
+  #quality {
+    text-align: center;
+  }
+  #quality .container {
+    height: 488px;
+    padding: 0px 74px;
+  }
+  #quality .container .grid {
+    flex-direction: column-reverse !important;
+    position: relative;
+    bottom: 160px;
+    left: 0;
+  }
+  #quality .container .grid .column_box_info {
+    height: 197px;
+    padding: 64px 0 0;
+  }
+  #quality .container .grid .column_box_info h2 {
+    font-size: 32px;
+  }
+  #quality .container .grid .column_box_img {
+    width: 573px;
+    height: 320px;
+    background-image: url("../Pictures/quality_tablet.png");
+    border-radius: 10px;
+  }
+  #country .container {
+    padding: 0;
+  }
+  #country .container .country_body {
+    width: 100%;
+  }
+  #country .container .country_body .column_box {
+    width: 222px;
+    height: 262px;
+  }
+  #country .container .country_body .column_box h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 767px) {
+  #commitment {
+    text-align: center;
+  }
+  #commitment .container .column_box_img {
+    width: 327px;
+    height: 400px;
+    margin: 0 0 48px;
+  }
+  #commitment .container .column_box_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+  #commitment .container .column_box_info {
+    width: 339px;
+    height: 453px;
+  }
+  #commitment .container .column_box_info h2 {
+    font-size: 32px;
+  }
+  #quality {
+    margin: 200px 0 100px;
+  }
+  #quality .container {
+    height: 540px;
+    padding: 0;
+  }
+  #quality .container .grid {
+    flex-direction: column-reverse !important;
+    position: relative;
+    bottom: 70px;
+    left: 0;
+  }
+  #quality .container .grid .column_box_info {
+    width: 279px;
+    height: 306px;
+    padding: 40px 0 0;
+  }
+  #quality .container .grid .column_box_info h2 {
+    font-size: 32px;
+  }
+  #quality .container .grid .column_box_img {
+    width: 279px;
+    height: 156px;
+    background-image: url("../Pictures/quality_mobile.png");
+    border-radius: 10px;
+  }
+  #country {
+    text-align: center;
+  }
+  #country .container .country_head {
+    margin: 0;
+  }
+  #country .container .country_body .column_box {
+    width: 100%;
+    height: 262px;
+    margin: 80px 0 0;
+  }
+  #country .container .country_body .column_box h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}/*# sourceMappingURL=about.css.map */
